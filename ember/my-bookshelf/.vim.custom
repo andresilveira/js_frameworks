@@ -1,0 +1,4 @@
+" since we have several projects inside a single git repo,
+" ctrlp plugin should only lookup files in the current folder
+" instead of globaly in the git repo
+let g:ctrlp_working_path_mode = 'a'
